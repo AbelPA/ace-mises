@@ -1,0 +1,2322 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "ace-mises.sln",
+      "file_type": "code",
+      "source_file": "ace-mises.sln",
+      "source_location": null,
+      "id": "ace_mises_sln",
+      "community": 14,
+      "norm_label": "ace-mises.sln"
+    },
+    {
+      "label": "opencode.json",
+      "file_type": "code",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L1",
+      "id": "opencode_opencode_json",
+      "community": 12,
+      "norm_label": "opencode.json"
+    },
+    {
+      "label": "plugin",
+      "file_type": "code",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L2",
+      "id": "opencode_opencode_plugin",
+      "community": 12,
+      "norm_label": "plugin"
+    },
+    {
+      "label": "graphify.js",
+      "file_type": "code",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L1",
+      "id": "opencode_plugins_graphify_js",
+      "community": 13,
+      "norm_label": "graphify.js"
+    },
+    {
+      "label": "GraphifyPlugin()",
+      "file_type": "code",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L6",
+      "id": "plugins_graphify_graphifyplugin",
+      "community": 13,
+      "norm_label": "graphifyplugin()"
+    },
+    {
+      "label": "ace.domain.csproj",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/ace.domain.csproj",
+      "source_location": null,
+      "id": "src_domain_ace_domain_ace_domain_csproj",
+      "community": 10,
+      "norm_label": "ace.domain.csproj"
+    },
+    {
+      "label": "net9.0",
+      "file_type": "concept",
+      "source_file": "src/domain/ace.domain/ace.domain.csproj",
+      "source_location": null,
+      "id": "framework_net9_0",
+      "community": 10,
+      "norm_label": "net9.0"
+    },
+    {
+      "label": "Microsoft.NET.Sdk",
+      "file_type": "concept",
+      "source_file": "src/domain/ace.domain/ace.domain.csproj",
+      "source_location": null,
+      "id": "sdk_microsoft_net_sdk",
+      "community": 10,
+      "norm_label": "microsoft.net.sdk"
+    },
+    {
+      "label": "ace.domain.csproj.nuget.dgspec.json",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L1",
+      "id": "src_domain_ace_domain_obj_ace_domain_csproj_nuget_dgspec_json",
+      "community": 7,
+      "norm_label": "ace.domain.csproj.nuget.dgspec.json"
+    },
+    {
+      "label": "format",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L2",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_format",
+      "community": 7,
+      "norm_label": "format"
+    },
+    {
+      "label": "restore",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L3",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restore",
+      "community": 7,
+      "norm_label": "restore"
+    },
+    {
+      "label": "/Users/abel/Git/ace-mises/src/domain/ace.domain/ace.domain.csproj",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L4",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restore_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj",
+      "community": 7,
+      "norm_label": "/users/abel/git/ace-mises/src/domain/ace.domain/ace.domain.csproj"
+    },
+    {
+      "label": "projects",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L6",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_projects",
+      "community": 7,
+      "norm_label": "projects"
+    },
+    {
+      "label": "/Users/abel/Git/ace-mises/src/domain/ace.domain/ace.domain.csproj",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L7",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_projects_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj",
+      "community": 7,
+      "norm_label": "/users/abel/git/ace-mises/src/domain/ace.domain/ace.domain.csproj"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L8",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_version",
+      "community": 7,
+      "norm_label": "version"
+    },
+    {
+      "label": "restore",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L9",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_restore",
+      "community": 1,
+      "norm_label": "restore"
+    },
+    {
+      "label": "projectUniqueName",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L10",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restore_projectuniquename",
+      "community": 1,
+      "norm_label": "projectuniquename"
+    },
+    {
+      "label": "projectName",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L11",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restore_projectname",
+      "community": 1,
+      "norm_label": "projectname"
+    },
+    {
+      "label": "projectPath",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L12",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restore_projectpath",
+      "community": 1,
+      "norm_label": "projectpath"
+    },
+    {
+      "label": "packagesPath",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L13",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restore_packagespath",
+      "community": 1,
+      "norm_label": "packagespath"
+    },
+    {
+      "label": "outputPath",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L14",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restore_outputpath",
+      "community": 1,
+      "norm_label": "outputpath"
+    },
+    {
+      "label": "projectStyle",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L15",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restore_projectstyle",
+      "community": 1,
+      "norm_label": "projectstyle"
+    },
+    {
+      "label": "configFilePaths",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L16",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restore_configfilepaths",
+      "community": 1,
+      "norm_label": "configfilepaths"
+    },
+    {
+      "label": "originalTargetFrameworks",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L19",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restore_originaltargetframeworks",
+      "community": 1,
+      "norm_label": "originaltargetframeworks"
+    },
+    {
+      "label": "sources",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L22",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restore_sources",
+      "community": 1,
+      "norm_label": "sources"
+    },
+    {
+      "label": "https://api.nuget.org/v3/index.json",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L23",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_sources_https_api_nuget_org_v3_index_json",
+      "community": 1,
+      "norm_label": "https://api.nuget.org/v3/index.json"
+    },
+    {
+      "label": "frameworks",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L25",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restore_frameworks",
+      "community": 5,
+      "norm_label": "frameworks"
+    },
+    {
+      "label": "net9.0",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L26",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_frameworks_net9_0",
+      "community": 5,
+      "norm_label": "net9.0"
+    },
+    {
+      "label": "targetAlias",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L27",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_net9_0_targetalias",
+      "community": 5,
+      "norm_label": "targetalias"
+    },
+    {
+      "label": "projectReferences",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L28",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_net9_0_projectreferences",
+      "community": 5,
+      "norm_label": "projectreferences"
+    },
+    {
+      "label": "warningProperties",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L31",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restore_warningproperties",
+      "community": 1,
+      "norm_label": "warningproperties"
+    },
+    {
+      "label": "warnAsError",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L32",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_warningproperties_warnaserror",
+      "community": 1,
+      "norm_label": "warnaserror"
+    },
+    {
+      "label": "restoreAuditProperties",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L36",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restore_restoreauditproperties",
+      "community": 1,
+      "norm_label": "restoreauditproperties"
+    },
+    {
+      "label": "enableAudit",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L37",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restoreauditproperties_enableaudit",
+      "community": 1,
+      "norm_label": "enableaudit"
+    },
+    {
+      "label": "auditLevel",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L38",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restoreauditproperties_auditlevel",
+      "community": 1,
+      "norm_label": "auditlevel"
+    },
+    {
+      "label": "auditMode",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L39",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restoreauditproperties_auditmode",
+      "community": 1,
+      "norm_label": "auditmode"
+    },
+    {
+      "label": "SdkAnalysisLevel",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L41",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_restore_sdkanalysislevel",
+      "community": 1,
+      "norm_label": "sdkanalysislevel"
+    },
+    {
+      "label": "frameworks",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L43",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_frameworks",
+      "community": 7,
+      "norm_label": "frameworks"
+    },
+    {
+      "label": "imports",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L46",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_net9_0_imports",
+      "community": 5,
+      "norm_label": "imports"
+    },
+    {
+      "label": "assetTargetFallback",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L55",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_net9_0_assettargetfallback",
+      "community": 5,
+      "norm_label": "assettargetfallback"
+    },
+    {
+      "label": "warn",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L56",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_net9_0_warn",
+      "community": 5,
+      "norm_label": "warn"
+    },
+    {
+      "label": "frameworkReferences",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L57",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_net9_0_frameworkreferences",
+      "community": 5,
+      "norm_label": "frameworkreferences"
+    },
+    {
+      "label": "Microsoft.NETCore.App",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L58",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_frameworkreferences_microsoft_netcore_app",
+      "community": 5,
+      "norm_label": "microsoft.netcore.app"
+    },
+    {
+      "label": "privateAssets",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L59",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_microsoft_netcore_app_privateassets",
+      "community": 5,
+      "norm_label": "privateassets"
+    },
+    {
+      "label": "runtimeIdentifierGraphPath",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L62",
+      "id": "obj_ace_domain_csproj_nuget_dgspec_net9_0_runtimeidentifiergraphpath",
+      "community": 5,
+      "norm_label": "runtimeidentifiergraphpath"
+    },
+    {
+      "label": "project.assets.json",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L1",
+      "id": "src_domain_ace_domain_obj_project_assets_json",
+      "community": 4,
+      "norm_label": "project.assets.json"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L2",
+      "id": "obj_project_assets_version",
+      "community": 4,
+      "norm_label": "version"
+    },
+    {
+      "label": "targets",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L3",
+      "id": "obj_project_assets_targets",
+      "community": 4,
+      "norm_label": "targets"
+    },
+    {
+      "label": "net9.0",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L4",
+      "id": "obj_project_assets_targets_net9_0",
+      "community": 4,
+      "norm_label": "net9.0"
+    },
+    {
+      "label": "libraries",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L6",
+      "id": "obj_project_assets_libraries",
+      "community": 4,
+      "norm_label": "libraries"
+    },
+    {
+      "label": "projectFileDependencyGroups",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L7",
+      "id": "obj_project_assets_projectfiledependencygroups",
+      "community": 4,
+      "norm_label": "projectfiledependencygroups"
+    },
+    {
+      "label": "net9.0",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L8",
+      "id": "obj_project_assets_projectfiledependencygroups_net9_0",
+      "community": 4,
+      "norm_label": "net9.0"
+    },
+    {
+      "label": "packageFolders",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L10",
+      "id": "obj_project_assets_packagefolders",
+      "community": 4,
+      "norm_label": "packagefolders"
+    },
+    {
+      "label": "/Users/abel/.nuget/packages/",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L11",
+      "id": "obj_project_assets_packagefolders_users_abel_nuget_packages",
+      "community": 4,
+      "norm_label": "/users/abel/.nuget/packages/"
+    },
+    {
+      "label": "project",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L13",
+      "id": "obj_project_assets_project",
+      "community": 4,
+      "norm_label": "project"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L14",
+      "id": "obj_project_assets_project_version",
+      "community": 4,
+      "norm_label": "version"
+    },
+    {
+      "label": "restore",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L15",
+      "id": "obj_project_assets_project_restore",
+      "community": 2,
+      "norm_label": "restore"
+    },
+    {
+      "label": "projectUniqueName",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L16",
+      "id": "obj_project_assets_restore_projectuniquename",
+      "community": 2,
+      "norm_label": "projectuniquename"
+    },
+    {
+      "label": "projectName",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L17",
+      "id": "obj_project_assets_restore_projectname",
+      "community": 2,
+      "norm_label": "projectname"
+    },
+    {
+      "label": "projectPath",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L18",
+      "id": "obj_project_assets_restore_projectpath",
+      "community": 2,
+      "norm_label": "projectpath"
+    },
+    {
+      "label": "packagesPath",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L19",
+      "id": "obj_project_assets_restore_packagespath",
+      "community": 2,
+      "norm_label": "packagespath"
+    },
+    {
+      "label": "outputPath",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L20",
+      "id": "obj_project_assets_restore_outputpath",
+      "community": 2,
+      "norm_label": "outputpath"
+    },
+    {
+      "label": "projectStyle",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L21",
+      "id": "obj_project_assets_restore_projectstyle",
+      "community": 2,
+      "norm_label": "projectstyle"
+    },
+    {
+      "label": "configFilePaths",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L22",
+      "id": "obj_project_assets_restore_configfilepaths",
+      "community": 2,
+      "norm_label": "configfilepaths"
+    },
+    {
+      "label": "originalTargetFrameworks",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L25",
+      "id": "obj_project_assets_restore_originaltargetframeworks",
+      "community": 2,
+      "norm_label": "originaltargetframeworks"
+    },
+    {
+      "label": "sources",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L28",
+      "id": "obj_project_assets_restore_sources",
+      "community": 2,
+      "norm_label": "sources"
+    },
+    {
+      "label": "https://api.nuget.org/v3/index.json",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L29",
+      "id": "obj_project_assets_sources_https_api_nuget_org_v3_index_json",
+      "community": 2,
+      "norm_label": "https://api.nuget.org/v3/index.json"
+    },
+    {
+      "label": "frameworks",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L31",
+      "id": "obj_project_assets_restore_frameworks",
+      "community": 6,
+      "norm_label": "frameworks"
+    },
+    {
+      "label": "net9.0",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L32",
+      "id": "obj_project_assets_frameworks_net9_0",
+      "community": 6,
+      "norm_label": "net9.0"
+    },
+    {
+      "label": "targetAlias",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L33",
+      "id": "obj_project_assets_net9_0_targetalias",
+      "community": 6,
+      "norm_label": "targetalias"
+    },
+    {
+      "label": "projectReferences",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L34",
+      "id": "obj_project_assets_net9_0_projectreferences",
+      "community": 6,
+      "norm_label": "projectreferences"
+    },
+    {
+      "label": "warningProperties",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L37",
+      "id": "obj_project_assets_restore_warningproperties",
+      "community": 2,
+      "norm_label": "warningproperties"
+    },
+    {
+      "label": "warnAsError",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L38",
+      "id": "obj_project_assets_warningproperties_warnaserror",
+      "community": 2,
+      "norm_label": "warnaserror"
+    },
+    {
+      "label": "restoreAuditProperties",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L42",
+      "id": "obj_project_assets_restore_restoreauditproperties",
+      "community": 2,
+      "norm_label": "restoreauditproperties"
+    },
+    {
+      "label": "enableAudit",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L43",
+      "id": "obj_project_assets_restoreauditproperties_enableaudit",
+      "community": 2,
+      "norm_label": "enableaudit"
+    },
+    {
+      "label": "auditLevel",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L44",
+      "id": "obj_project_assets_restoreauditproperties_auditlevel",
+      "community": 2,
+      "norm_label": "auditlevel"
+    },
+    {
+      "label": "auditMode",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L45",
+      "id": "obj_project_assets_restoreauditproperties_auditmode",
+      "community": 2,
+      "norm_label": "auditmode"
+    },
+    {
+      "label": "SdkAnalysisLevel",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L47",
+      "id": "obj_project_assets_restore_sdkanalysislevel",
+      "community": 2,
+      "norm_label": "sdkanalysislevel"
+    },
+    {
+      "label": "frameworks",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L49",
+      "id": "obj_project_assets_project_frameworks",
+      "community": 4,
+      "norm_label": "frameworks"
+    },
+    {
+      "label": "imports",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L52",
+      "id": "obj_project_assets_net9_0_imports",
+      "community": 6,
+      "norm_label": "imports"
+    },
+    {
+      "label": "assetTargetFallback",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L61",
+      "id": "obj_project_assets_net9_0_assettargetfallback",
+      "community": 6,
+      "norm_label": "assettargetfallback"
+    },
+    {
+      "label": "warn",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L62",
+      "id": "obj_project_assets_net9_0_warn",
+      "community": 6,
+      "norm_label": "warn"
+    },
+    {
+      "label": "frameworkReferences",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L63",
+      "id": "obj_project_assets_net9_0_frameworkreferences",
+      "community": 6,
+      "norm_label": "frameworkreferences"
+    },
+    {
+      "label": "Microsoft.NETCore.App",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L64",
+      "id": "obj_project_assets_frameworkreferences_microsoft_netcore_app",
+      "community": 6,
+      "norm_label": "microsoft.netcore.app"
+    },
+    {
+      "label": "privateAssets",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L65",
+      "id": "obj_project_assets_microsoft_netcore_app_privateassets",
+      "community": 6,
+      "norm_label": "privateassets"
+    },
+    {
+      "label": "runtimeIdentifierGraphPath",
+      "file_type": "code",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L68",
+      "id": "obj_project_assets_net9_0_runtimeidentifiergraphpath",
+      "community": 6,
+      "norm_label": "runtimeidentifiergraphpath"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "id": "agents_md",
+      "community": 11,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "id": "ace_mises_agents_graphify",
+      "community": 11,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "dev.md",
+      "file_type": "document",
+      "source_file": ".opencode/agent/dev.md",
+      "source_location": "L1",
+      "id": "opencode_agent_dev_md",
+      "community": 9,
+      "norm_label": "dev.md"
+    },
+    {
+      "label": "Responsabilidades",
+      "file_type": "document",
+      "source_file": ".opencode/agent/dev.md",
+      "source_location": "L12",
+      "id": "agent_dev_responsabilidades",
+      "community": 9,
+      "norm_label": "responsabilidades"
+    },
+    {
+      "label": "Regras",
+      "file_type": "document",
+      "source_file": ".opencode/agent/dev.md",
+      "source_location": "L20",
+      "id": "agent_dev_regras",
+      "community": 9,
+      "norm_label": "regras"
+    },
+    {
+      "label": "techleader.md",
+      "file_type": "document",
+      "source_file": ".opencode/agent/techleader.md",
+      "source_location": "L1",
+      "id": "opencode_agent_techleader_md",
+      "community": 8,
+      "norm_label": "techleader.md"
+    },
+    {
+      "label": "Responsabilidades",
+      "file_type": "document",
+      "source_file": ".opencode/agent/techleader.md",
+      "source_location": "L13",
+      "id": "agent_techleader_responsabilidades",
+      "community": 8,
+      "norm_label": "responsabilidades"
+    },
+    {
+      "label": "Regras",
+      "file_type": "document",
+      "source_file": ".opencode/agent/techleader.md",
+      "source_location": "L23",
+      "id": "agent_techleader_regras",
+      "community": 8,
+      "norm_label": "regras"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1",
+      "id": "opencode_skills_graphify_skill_md",
+      "community": 3,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "/graphify",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L7",
+      "id": "graphify_skill_graphify",
+      "community": 3,
+      "norm_label": "/graphify"
+    },
+    {
+      "label": "Usage",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L11",
+      "id": "graphify_skill_usage",
+      "community": 3,
+      "norm_label": "usage"
+    },
+    {
+      "label": "What graphify is for",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L37",
+      "id": "graphify_skill_what_graphify_is_for",
+      "community": 3,
+      "norm_label": "what graphify is for"
+    },
+    {
+      "label": "What You Must Do When Invoked",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L52",
+      "id": "graphify_skill_what_you_must_do_when_invoked",
+      "community": 0,
+      "norm_label": "what you must do when invoked"
+    },
+    {
+      "label": "Step 1 - Ensure graphify is installed",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L60",
+      "id": "graphify_skill_step_1_ensure_graphify_is_installed",
+      "community": 0,
+      "norm_label": "step 1 - ensure graphify is installed"
+    },
+    {
+      "label": "Step 2 - Detect files",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L102",
+      "id": "graphify_skill_step_2_detect_files",
+      "community": 0,
+      "norm_label": "step 2 - detect files"
+    },
+    {
+      "label": "Step 2.5 - Transcribe video / audio files (only if video files detected)",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L133",
+      "id": "graphify_skill_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
+      "community": 0,
+      "norm_label": "step 2.5 - transcribe video / audio files (only if video files detected)"
+    },
+    {
+      "label": "Step 3 - Extract entities and relationships",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L177",
+      "id": "graphify_skill_step_3_extract_entities_and_relationships",
+      "community": 0,
+      "norm_label": "step 3 - extract entities and relationships"
+    },
+    {
+      "label": "Part A - Structural extraction for code files",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L187",
+      "id": "graphify_skill_part_a_structural_extraction_for_code_files",
+      "community": 0,
+      "norm_label": "part a - structural extraction for code files"
+    },
+    {
+      "label": "Part B - Semantic extraction (parallel subagents)",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L213",
+      "id": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
+      "community": 0,
+      "norm_label": "part b - semantic extraction (parallel subagents)"
+    },
+    {
+      "label": "Part C - Merge AST + semantic into final extraction",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L411",
+      "id": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
+      "community": 0,
+      "norm_label": "part c - merge ast + semantic into final extraction"
+    },
+    {
+      "label": "Step 4 - Build graph, cluster, analyze, generate outputs",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L447",
+      "id": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
+      "community": 0,
+      "norm_label": "step 4 - build graph, cluster, analyze, generate outputs"
+    },
+    {
+      "label": "Step 5 - Label communities",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L497",
+      "id": "graphify_skill_step_5_label_communities",
+      "community": 0,
+      "norm_label": "step 5 - label communities"
+    },
+    {
+      "label": "Step 6 - Generate Obsidian vault (opt-in) + HTML",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L537",
+      "id": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
+      "community": 0,
+      "norm_label": "step 6 - generate obsidian vault (opt-in) + html"
+    },
+    {
+      "label": "Step 6b - Wiki (only if --wiki flag)",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L619",
+      "id": "graphify_skill_step_6b_wiki_only_if_wiki_flag",
+      "community": 0,
+      "norm_label": "step 6b - wiki (only if --wiki flag)"
+    },
+    {
+      "label": "Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag)",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L649",
+      "id": "graphify_skill_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
+      "community": 0,
+      "norm_label": "step 7 - neo4j export (only if --neo4j or --neo4j-push flag)"
+    },
+    {
+      "label": "Step 7b - SVG export (only if --svg flag)",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L688",
+      "id": "graphify_skill_step_7b_svg_export_only_if_svg_flag",
+      "community": 0,
+      "norm_label": "step 7b - svg export (only if --svg flag)"
+    },
+    {
+      "label": "Step 7c - GraphML export (only if --graphml flag)",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L710",
+      "id": "graphify_skill_step_7c_graphml_export_only_if_graphml_flag",
+      "community": 0,
+      "norm_label": "step 7c - graphml export (only if --graphml flag)"
+    },
+    {
+      "label": "Step 7d - MCP server (only if --mcp flag)",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L730",
+      "id": "graphify_skill_step_7d_mcp_server_only_if_mcp_flag",
+      "community": 0,
+      "norm_label": "step 7d - mcp server (only if --mcp flag)"
+    },
+    {
+      "label": "Step 8 - Token reduction benchmark (only if total_words > 5000)",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L750",
+      "id": "graphify_skill_step_8_token_reduction_benchmark_only_if_total_words_5000",
+      "community": 0,
+      "norm_label": "step 8 - token reduction benchmark (only if total_words > 5000)"
+    },
+    {
+      "label": "Step 9 - Save manifest, update cost tracker, clean up, and report",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L770",
+      "id": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
+      "community": 0,
+      "norm_label": "step 9 - save manifest, update cost tracker, clean up, and report"
+    },
+    {
+      "label": "For --update (incremental re-extraction)",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L842",
+      "id": "graphify_skill_for_update_incremental_re_extraction",
+      "community": 3,
+      "norm_label": "for --update (incremental re-extraction)"
+    },
+    {
+      "label": "For --cluster-only",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L961",
+      "id": "graphify_skill_for_cluster_only",
+      "community": 3,
+      "norm_label": "for --cluster-only"
+    },
+    {
+      "label": "For /graphify query",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1008",
+      "id": "graphify_skill_for_graphify_query",
+      "community": 3,
+      "norm_label": "for /graphify query"
+    },
+    {
+      "label": "For /graphify path",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1135",
+      "id": "graphify_skill_for_graphify_path",
+      "community": 3,
+      "norm_label": "for /graphify path"
+    },
+    {
+      "label": "For /graphify explain",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1208",
+      "id": "graphify_skill_for_graphify_explain",
+      "community": 3,
+      "norm_label": "for /graphify explain"
+    },
+    {
+      "label": "For /graphify add",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1274",
+      "id": "graphify_skill_for_graphify_add",
+      "community": 3,
+      "norm_label": "for /graphify add"
+    },
+    {
+      "label": "For --watch",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1307",
+      "id": "graphify_skill_for_watch",
+      "community": 3,
+      "norm_label": "for --watch"
+    },
+    {
+      "label": "For git commit hook",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1328",
+      "id": "graphify_skill_for_git_commit_hook",
+      "community": 3,
+      "norm_label": "for git commit hook"
+    },
+    {
+      "label": "For native CLAUDE.md integration",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1344",
+      "id": "graphify_skill_for_native_claude_md_integration",
+      "community": 3,
+      "norm_label": "for native claude.md integration"
+    },
+    {
+      "label": "Honesty Rules",
+      "file_type": "document",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1360",
+      "id": "graphify_skill_honesty_rules",
+      "community": 3,
+      "norm_label": "honesty rules"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "opencode_opencode_json",
+      "target": "opencode_opencode_plugin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "opencode_plugins_graphify_js",
+      "target": "plugins_graphify_graphifyplugin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/ace.domain.csproj",
+      "weight": 1.0,
+      "source": "src_domain_ace_domain_ace_domain_csproj",
+      "target": "framework_net9_0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/ace.domain.csproj",
+      "weight": 1.0,
+      "source": "src_domain_ace_domain_ace_domain_csproj",
+      "target": "sdk_microsoft_net_sdk",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_domain_ace_domain_obj_ace_domain_csproj_nuget_dgspec_json",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_format",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_domain_ace_domain_obj_ace_domain_csproj_nuget_dgspec_json",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_projects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_domain_ace_domain_obj_ace_domain_csproj_nuget_dgspec_json",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_restore",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restore_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_projects",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_projects_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_projects_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_frameworks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_projects_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_restore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_projects_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_restore",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restore_configfilepaths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_restore",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restore_frameworks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_restore",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restore_originaltargetframeworks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_restore",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restore_outputpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_restore",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restore_packagespath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_restore",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restore_projectname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_restore",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restore_projectpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_restore",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restore_projectstyle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_restore",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restore_projectuniquename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_restore",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restore_restoreauditproperties",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_restore",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restore_sdkanalysislevel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_restore",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restore_sources",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_restore",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restore_warningproperties",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_restore_sources",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_sources_https_api_nuget_org_v3_index_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_restore_frameworks",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_frameworks_net9_0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_frameworks_net9_0",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_net9_0_assettargetfallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_frameworks_net9_0",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_net9_0_frameworkreferences",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_frameworks_net9_0",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_net9_0_imports",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_frameworks_net9_0",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_net9_0_projectreferences",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_frameworks_net9_0",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_net9_0_runtimeidentifiergraphpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_frameworks_net9_0",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_net9_0_targetalias",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_frameworks_net9_0",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_net9_0_warn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_users_abel_git_ace_mises_src_domain_ace_domain_ace_domain_csproj_frameworks",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_frameworks_net9_0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_restore_warningproperties",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_warningproperties_warnaserror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_restore_restoreauditproperties",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restoreauditproperties_auditlevel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_restore_restoreauditproperties",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restoreauditproperties_auditmode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_restore_restoreauditproperties",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_restoreauditproperties_enableaudit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_net9_0_frameworkreferences",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_frameworkreferences_microsoft_netcore_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "obj_ace_domain_csproj_nuget_dgspec_frameworkreferences_microsoft_netcore_app",
+      "target": "obj_ace_domain_csproj_nuget_dgspec_microsoft_netcore_app_privateassets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_domain_ace_domain_obj_project_assets_json",
+      "target": "obj_project_assets_libraries",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_domain_ace_domain_obj_project_assets_json",
+      "target": "obj_project_assets_packagefolders",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_domain_ace_domain_obj_project_assets_json",
+      "target": "obj_project_assets_project",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_domain_ace_domain_obj_project_assets_json",
+      "target": "obj_project_assets_projectfiledependencygroups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_domain_ace_domain_obj_project_assets_json",
+      "target": "obj_project_assets_targets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_domain_ace_domain_obj_project_assets_json",
+      "target": "obj_project_assets_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "obj_project_assets_targets",
+      "target": "obj_project_assets_targets_net9_0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "obj_project_assets_projectfiledependencygroups",
+      "target": "obj_project_assets_projectfiledependencygroups_net9_0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "obj_project_assets_packagefolders",
+      "target": "obj_project_assets_packagefolders_users_abel_nuget_packages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "obj_project_assets_project",
+      "target": "obj_project_assets_project_frameworks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "obj_project_assets_project",
+      "target": "obj_project_assets_project_restore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "obj_project_assets_project",
+      "target": "obj_project_assets_project_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "obj_project_assets_project_restore",
+      "target": "obj_project_assets_restore_configfilepaths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "obj_project_assets_project_restore",
+      "target": "obj_project_assets_restore_frameworks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "obj_project_assets_project_restore",
+      "target": "obj_project_assets_restore_originaltargetframeworks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "obj_project_assets_project_restore",
+      "target": "obj_project_assets_restore_outputpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "obj_project_assets_project_restore",
+      "target": "obj_project_assets_restore_packagespath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "obj_project_assets_project_restore",
+      "target": "obj_project_assets_restore_projectname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "obj_project_assets_project_restore",
+      "target": "obj_project_assets_restore_projectpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "obj_project_assets_project_restore",
+      "target": "obj_project_assets_restore_projectstyle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "obj_project_assets_project_restore",
+      "target": "obj_project_assets_restore_projectuniquename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "obj_project_assets_project_restore",
+      "target": "obj_project_assets_restore_restoreauditproperties",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "obj_project_assets_project_restore",
+      "target": "obj_project_assets_restore_sdkanalysislevel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "obj_project_assets_project_restore",
+      "target": "obj_project_assets_restore_sources",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "obj_project_assets_project_restore",
+      "target": "obj_project_assets_restore_warningproperties",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "obj_project_assets_restore_sources",
+      "target": "obj_project_assets_sources_https_api_nuget_org_v3_index_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "obj_project_assets_restore_frameworks",
+      "target": "obj_project_assets_frameworks_net9_0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "obj_project_assets_frameworks_net9_0",
+      "target": "obj_project_assets_net9_0_assettargetfallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "obj_project_assets_frameworks_net9_0",
+      "target": "obj_project_assets_net9_0_frameworkreferences",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "obj_project_assets_frameworks_net9_0",
+      "target": "obj_project_assets_net9_0_imports",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "obj_project_assets_frameworks_net9_0",
+      "target": "obj_project_assets_net9_0_projectreferences",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "obj_project_assets_frameworks_net9_0",
+      "target": "obj_project_assets_net9_0_runtimeidentifiergraphpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "obj_project_assets_frameworks_net9_0",
+      "target": "obj_project_assets_net9_0_targetalias",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "obj_project_assets_frameworks_net9_0",
+      "target": "obj_project_assets_net9_0_warn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "obj_project_assets_project_frameworks",
+      "target": "obj_project_assets_frameworks_net9_0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "obj_project_assets_restore_warningproperties",
+      "target": "obj_project_assets_warningproperties_warnaserror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "obj_project_assets_restore_restoreauditproperties",
+      "target": "obj_project_assets_restoreauditproperties_auditlevel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "obj_project_assets_restore_restoreauditproperties",
+      "target": "obj_project_assets_restoreauditproperties_auditmode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "obj_project_assets_restore_restoreauditproperties",
+      "target": "obj_project_assets_restoreauditproperties_enableaudit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "obj_project_assets_net9_0_frameworkreferences",
+      "target": "obj_project_assets_frameworkreferences_microsoft_netcore_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/domain/ace.domain/obj/project.assets.json",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "obj_project_assets_frameworkreferences_microsoft_netcore_app",
+      "target": "obj_project_assets_microsoft_netcore_app_privateassets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents_md",
+      "target": "ace_mises_agents_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/agent/dev.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "opencode_agent_dev_md",
+      "target": "agent_dev_regras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/agent/dev.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "opencode_agent_dev_md",
+      "target": "agent_dev_responsabilidades",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/agent/techleader.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "opencode_agent_techleader_md",
+      "target": "agent_techleader_regras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/agent/techleader.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "opencode_agent_techleader_md",
+      "target": "agent_techleader_responsabilidades",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "opencode_skills_graphify_skill_md",
+      "target": "graphify_skill_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L961",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_cluster_only",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1328",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_git_commit_hook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1274",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_graphify_add",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1208",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_graphify_explain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1135",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_graphify_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1008",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_graphify_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1344",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_native_claude_md_integration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L842",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_update_incremental_re_extraction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1307",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_watch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L1360",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_honesty_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_what_graphify_is_for",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_what_you_must_do_when_invoked",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_1_ensure_graphify_is_installed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_2_detect_files",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_3_extract_entities_and_relationships",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L447",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L497",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_5_label_communities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L537",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L619",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_6b_wiki_only_if_wiki_flag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L649",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L688",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_7b_svg_export_only_if_svg_flag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L710",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_7c_graphml_export_only_if_graphml_flag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L730",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_7d_mcp_server_only_if_mcp_flag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L750",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_8_token_reduction_benchmark_only_if_total_words_5000",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L770",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "graphify_skill_step_3_extract_entities_and_relationships",
+      "target": "graphify_skill_part_a_structural_extraction_for_code_files",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L213",
+      "weight": 1.0,
+      "source": "graphify_skill_step_3_extract_entities_and_relationships",
+      "target": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/graphify/SKILL.md",
+      "source_location": "L411",
+      "weight": 1.0,
+      "source": "graphify_skill_step_3_extract_entities_and_relationships",
+      "target": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

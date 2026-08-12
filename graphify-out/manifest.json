@@ -1,0 +1,52 @@
+{
+  "/Users/abel/Git/ace-mises/ace-mises.sln": {
+    "mtime": 1786548114.156841,
+    "ast_hash": "3e440ad7f69da223f9195c677c83af41",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/.opencode/opencode.json": {
+    "mtime": 1786550041.5826168,
+    "ast_hash": "abcc8b9dcd80bca5f9dde6d9f0c3ae79",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/.opencode/plugins/graphify.js": {
+    "mtime": 1786550041.58254,
+    "ast_hash": "64ccd3c03dbfe0980b6095766f5c4e52",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/domain/ace.domain/ace.domain.csproj": {
+    "mtime": 1786549388.2548401,
+    "ast_hash": "bd2ef2191c9d77c05642819dfa5648da",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/domain/ace.domain/obj/ace.domain.csproj.nuget.dgspec.json": {
+    "mtime": 1786549388.5471497,
+    "ast_hash": "a13a86a012178232d1e6d627db3835b5",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/domain/ace.domain/obj/project.assets.json": {
+    "mtime": 1786549388.5414133,
+    "ast_hash": "a62f1ef42168bd0e920ecdcadc7672fe",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/AGENTS.md": {
+    "mtime": 1786550041.5824091,
+    "ast_hash": "62c05a2bf20bf036a0b2633478663e64",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/.opencode/agent/dev.md": {
+    "mtime": 1786549753.6222017,
+    "ast_hash": "72b448efbee6c56de98cf0c0ac72bc90",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/.opencode/agent/techleader.md": {
+    "mtime": 1786549749.77636,
+    "ast_hash": "ee5c710b4042637aa2e5738427910261",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/.opencode/skills/graphify/SKILL.md": {
+    "mtime": 1786550041.5821104,
+    "ast_hash": "3d4dad5e2eeab0b6f73d45dd1e8df0d7",
+    "semantic_hash": ""
+  }
+}
