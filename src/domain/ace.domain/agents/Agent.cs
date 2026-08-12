@@ -46,4 +46,30 @@ public sealed class Agent
         foreach (var production in Productions)
             Inventory.Add(production.Food, production.QuantityPerPeriod);
     }
+
+    public IReadOnlyList<Need> UnfulfilledNeeds()
+        => Needs
+            .Where(n => !Inventory.Has(n.Food, n.QuantityPerPeriod))
+            .ToList();
+
+    public bool NeedsFood()
+        => UnfulfilledNeeds().Count > 0;
+
+    public void Consume()
+    {
+        if (!IsAlive)
+            return;
+
+        foreach (var need in Needs)
+        {
+            if (!Inventory.Has(need.Food, need.QuantityPerPeriod))
+            {
+                IsAlive = false;
+                return;
+            }
+        }
+
+        foreach (var need in Needs)
+            Inventory.Remove(need.Food, need.QuantityPerPeriod);
+    }
 }

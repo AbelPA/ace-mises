@@ -20,6 +20,7 @@ __pycache__/
 .idea/
 
 # Build
+bin/
 dist/
 build/
 obj/
