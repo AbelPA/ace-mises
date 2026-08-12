@@ -20,8 +20,12 @@ __pycache__/
 .idea/
 
 # Build
+bin/
 dist/
 build/
+obj/
+*.pdb
+*.dll
 
 # Graphify
 graphify-out/cache/ast/
