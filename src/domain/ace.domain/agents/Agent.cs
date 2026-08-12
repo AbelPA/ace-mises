@@ -37,4 +37,13 @@ public sealed class Agent
         Inventory = new Inventory();
         IsAlive = true;
     }
+
+    public void Produce()
+    {
+        if (!IsAlive)
+            return;
+
+        foreach (var production in Productions)
+            Inventory.Add(production.Food, production.QuantityPerPeriod);
+    }
 }
