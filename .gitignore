@@ -22,6 +22,9 @@ __pycache__/
 # Build
 dist/
 build/
+obj/
+*.pdb
+*.dll
 
 # Graphify
 graphify-out/cache/ast/
