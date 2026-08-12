@@ -23,3 +23,6 @@ __pycache__/
 dist/
 build/
 
+# Graphify
+graphify-out/cache/ast/
+
