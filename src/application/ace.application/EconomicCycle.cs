@@ -1,10 +1,9 @@
 using ace.domain.entities.agents;
 using ace.domain.entities.exchange;
-using ace.domain.interfaces.application;
 
 namespace ace.application;
 
-public sealed class EconomicCycle : IEconomicCycle
+public sealed class EconomicCycle
 {
     /// <summary>
     /// Runs one period of the economic cycle for the given agents.
