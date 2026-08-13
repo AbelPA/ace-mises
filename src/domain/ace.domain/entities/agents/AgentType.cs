@@ -1,4 +1,4 @@
-namespace ace.domain.agents;
+namespace ace.domain.entities.agents;
 
 public enum AgentType
 {

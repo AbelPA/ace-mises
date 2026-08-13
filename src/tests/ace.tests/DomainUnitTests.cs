@@ -1,6 +1,6 @@
-using ace.domain.agents;
-using ace.domain.economy;
-using ace.domain.exchange;
+using ace.domain.entities.agents;
+using ace.domain.entities.economy;
+using ace.domain.entities.exchange;
 
 using Xunit;
 

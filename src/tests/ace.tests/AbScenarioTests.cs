@@ -1,6 +1,6 @@
 using ace.application;
-using ace.domain.agents;
-using ace.domain.economy;
+using ace.domain.entities.agents;
+using ace.domain.entities.economy;
 
 using Xunit;
 

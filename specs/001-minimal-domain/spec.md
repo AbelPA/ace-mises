@@ -16,7 +16,7 @@ exchange, and survival behaviors live in dedicated specs.
 ### Scope
 
 - `FoodType`, `Need`, `Production`, `Inventory`, `AgentType`, `Agent` (structure and invariants).
-- Namespaces: `ace.domain`, `ace.domain.agents`, `ace.domain.economy`, `ace.domain.exchange`.
+- Namespaces: `ace.domain`, `ace.domain.entities.agents`, `ace.domain.entities.economy`, `ace.domain.entities.exchange`.
 - Layers: `ace.domain ← ace.application ← ace.infrastructure ← ace.console`; the domain does not know the simulation.
 - Value objects as `record`; entities with state/behavior as `class`.
 
@@ -94,7 +94,7 @@ exchange, and survival behaviors live in dedicated specs.
 ### FoodType
 
 ```csharp
-namespace ace.domain.economy;
+namespace ace.domain.entities.economy;
 
 public enum FoodType
 {
@@ -108,7 +108,7 @@ public enum FoodType
 ### Need
 
 ```csharp
-namespace ace.domain.economy;
+namespace ace.domain.entities.economy;
 
 public sealed record Need(
     FoodType Food,
@@ -119,7 +119,7 @@ public sealed record Need(
 ### Production
 
 ```csharp
-namespace ace.domain.economy;
+namespace ace.domain.entities.economy;
 
 public sealed record Production(
     FoodType Food,
@@ -130,7 +130,7 @@ public sealed record Production(
 ### Inventory
 
 ```csharp
-namespace ace.domain.economy;
+namespace ace.domain.entities.economy;
 
 public sealed class Inventory
 {
@@ -171,7 +171,7 @@ public sealed class Inventory
 ### AgentType
 
 ```csharp
-namespace ace.domain.agents;
+namespace ace.domain.entities.agents;
 
 public enum AgentType
 {
@@ -183,9 +183,9 @@ public enum AgentType
 ### Agent
 
 ```csharp
-using ace.domain.economy;
+using ace.domain.entities.economy;
 
-namespace ace.domain.agents;
+namespace ace.domain.entities.agents;
 
 public sealed class Agent
 {

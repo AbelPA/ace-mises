@@ -1,4 +1,4 @@
-namespace ace.domain.economy;
+namespace ace.domain.entities.economy;
 
 public sealed record Production
 {
