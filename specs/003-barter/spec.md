@@ -69,10 +69,10 @@ exchange opportunities and executes `Exchange`.
 ### Offer
 
 ```csharp
-using ace.domain.agents;
-using ace.domain.economy;
+using ace.domain.entities.agents;
+using ace.domain.entities.economy;
 
-namespace ace.domain.exchange;
+namespace ace.domain.entities.exchange;
 
 public sealed record Offer(
     Agent Seller,
@@ -85,10 +85,10 @@ public sealed record Offer(
 ### Exchange
 
 ```csharp
-using ace.domain.agents;
-using ace.domain.economy;
+using ace.domain.entities.agents;
+using ace.domain.entities.economy;
 
-namespace ace.domain.exchange;
+namespace ace.domain.entities.exchange;
 
 public sealed class Exchange
 {

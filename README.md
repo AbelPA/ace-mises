@@ -16,6 +16,13 @@ We are building an Agent-Based Computational Economics framework inspired by the
 
 In other words, the repository treats software development as a kind of economic system: multiple agents with local knowledge contribute to a larger process of value creation, while governance, structure, and feedback loops keep the system coherent.
 
+## Development Stack
+
+- **Architecture:** Clean Architecture
+- **Hooks:** Husky + Gitleaks
+- **Analysis & Mapping:** Graphify
+- **Standards:** GitHub Spec Kit
+
 ## What this project emphasizes
 
 ### Vibe coding with subagents

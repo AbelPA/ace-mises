@@ -60,14 +60,14 @@ FoodType (enum: Wheat | Corn | Meat | Milk) — used by Inventory, Need, Product
 
 | Name        | Type   | Namespace            | Responsibility                            | Constraints                                  |
 |-------------|--------|----------------------|-------------------------------------------|---------------------------------------------|
-| `FoodType`  | enum   | `ace.domain.economy` | Identifies the economic goods            | Only Wheat, Corn, Meat, Milk              |
-| `Need`      | record | `ace.domain.economy` | Survival need per period                | `QuantityPerPeriod > 0`                     |
-| `Production`| record | `ace.domain.economy` | Deterministic production capacity        | `QuantityPerPeriod > 0`; deterministic    |
-| `Inventory` | class  | `ace.domain.economy` | Physical stock of foods                  | `Add`/`Remove` require qty > 0; physical   |
-| `AgentType` | enum   | `ace.domain.agents`  | Agent type                               | Producer is also a consumer                |
-| `Agent`     | class  | `ace.domain.agents`  | Main entity with state/behavior          | Binary `IsAlive`; knows its own rules     |
-| `Offer`     | record | `ace.domain.exchange`| Barter proposal                          | No monetary price                          |
-| `Exchange`  | class  | `ace.domain.exchange`| Bilateral food trade                     | Atomic; failure does not alter inventories |
+| `FoodType`  | enum   | `ace.domain.entities.economy` | Identifies the economic goods            | Only Wheat, Corn, Meat, Milk              |
+| `Need`      | record | `ace.domain.entities.economy` | Survival need per period                | `QuantityPerPeriod > 0`                     |
+| `Production`| record | `ace.domain.entities.economy` | Deterministic production capacity        | `QuantityPerPeriod > 0`; deterministic    |
+| `Inventory` | class  | `ace.domain.entities.economy` | Physical stock of foods                  | `Add`/`Remove` require qty > 0; physical   |
+| `AgentType` | enum   | `ace.domain.entities.agents`  | Agent type                               | Producer is also a consumer                |
+| `Agent`     | class  | `ace.domain.entities.agents`  | Main entity with state/behavior          | Binary `IsAlive`; knows its own rules     |
+| `Offer`     | record | `ace.domain.entities.exchange`| Barter proposal                          | No monetary price                          |
+| `Exchange`  | class  | `ace.domain.entities.exchange`| Bilateral food trade                     | Atomic; failure does not alter inventories |
 
 ---
 
@@ -76,7 +76,7 @@ FoodType (enum: Wheat | Corn | Meat | Milk) — used by Inventory, Need, Product
 Identifies the only goods in v0.1.
 
 ```csharp
-namespace ace.domain.economy;
+namespace ace.domain.entities.economy;
 
 public enum FoodType
 {
@@ -98,7 +98,7 @@ It does **not** represent preference, utility, price, intensity, or priority. It
 exclusively a survival need.
 
 ```csharp
-namespace ace.domain.economy;
+namespace ace.domain.entities.economy;
 
 public sealed record Need(
     FoodType Food,
@@ -116,7 +116,7 @@ Example: `new Need(FoodType.Meat, 1);`
 A production represents the **deterministic** capacity to produce a given food during a period.
 
 ```csharp
-namespace ace.domain.economy;
+namespace ace.domain.entities.economy;
 
 public sealed record Production(
     FoodType Food,
@@ -138,7 +138,7 @@ Every agent owns a physical stock of foods. It represents the agent's physical p
 Do not implement monetary value, price, valuation, accounting, or inventory cost.
 
 ```csharp
-namespace ace.domain.economy;
+namespace ace.domain.entities.economy;
 
 public sealed class Inventory
 {
@@ -181,7 +181,7 @@ public sealed class Inventory
 ## AgentType
 
 ```csharp
-namespace ace.domain.agents;
+namespace ace.domain.entities.agents;
 
 public enum AgentType
 {
@@ -209,9 +209,9 @@ Consumer != agent without needs
 `Agent` is the main entity of the domain.
 
 ```csharp
-using ace.domain.economy;
+using ace.domain.entities.economy;
 
-namespace ace.domain.agents;
+namespace ace.domain.entities.agents;
 
 public sealed class Agent
 {
@@ -302,10 +302,10 @@ they offer, what they want to receive, and how much they want to receive. **Do n
 price.**
 
 ```csharp
-using ace.domain.agents;
-using ace.domain.economy;
+using ace.domain.entities.agents;
+using ace.domain.entities.economy;
 
-namespace ace.domain.exchange;
+namespace ace.domain.entities.exchange;
 
 public sealed record Offer(
     Agent Seller,
@@ -322,10 +322,10 @@ public sealed record Offer(
 A trade represents the physical transfer of foods between two agents.
 
 ```csharp
-using ace.domain.agents;
-using ace.domain.economy;
+using ace.domain.entities.agents;
+using ace.domain.entities.economy;
 
-namespace ace.domain.exchange;
+namespace ace.domain.entities.exchange;
 
 public sealed class Exchange
 {

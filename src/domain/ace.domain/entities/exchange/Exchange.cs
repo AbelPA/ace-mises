@@ -1,7 +1,7 @@
-using ace.domain.agents;
-using ace.domain.economy;
+using ace.domain.entities.agents;
+using ace.domain.entities.economy;
 
-namespace ace.domain.exchange;
+namespace ace.domain.entities.exchange;
 
 public sealed class Exchange
 {

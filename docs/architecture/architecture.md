@@ -54,9 +54,9 @@ Allowed sub-namespaces (do not create additional namespaces inside the domain wi
 
 | Namespace                | Concepts                          |
 |--------------------------|------------------------------------|
-| `ace.domain.economy`     | `FoodType`, `Need`, `Production`, `Inventory` |
-| `ace.domain.agents`      | `Agent`, `AgentType`               |
-| `ace.domain.exchange`    | `Offer`, `Exchange`                |
+| `ace.domain.entities.economy`     | `FoodType`, `Need`, `Production`, `Inventory` |
+| `ace.domain.entities.agents`      | `Agent`, `AgentType`               |
+| `ace.domain.entities.exchange`    | `Offer`, `Exchange`                |
 
 ## Rule: do not invent concepts
 

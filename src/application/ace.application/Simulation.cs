@@ -1,4 +1,4 @@
-using ace.domain.agents;
+using ace.domain.entities.agents;
 
 namespace ace.application;
 

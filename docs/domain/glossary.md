@@ -9,11 +9,11 @@ by Ludwig von Mises's theory of human action (praxeology) — dispersed knowledg
 coordination, emergent order.
 
 ## Agent
-Main entity of the domain (`ace.domain.agents.Agent`). Has needs, inventory, production
+Main entity of the domain (`ace.domain.entities.agents.Agent`). Has needs, inventory, production
 capabilities (if Producer), and a binary life state. See `model.md`.
 
 ## AgentType
-Enum (`ace.domain.agents.AgentType`) with values `Producer` and `Consumer`.
+Enum (`ace.domain.entities.agents.AgentType`) with values `Producer` and `Consumer`.
 - **Producer** — has at least one production capability.
 - **Consumer** — has no production capability of its own.
 Essential rule: **every Producer is also a consumer**. `AgentType` does not determine who may consume.
@@ -22,20 +22,20 @@ Essential rule: **every Producer is also a consumer**. `AgentType` does not dete
 Food represented by `FoodType`. In v0.1, the only goods that exist are foods.
 
 ## FoodType
-Enum (`ace.domain.economy.FoodType`) with values `Wheat`, `Corn`, `Meat`, `Milk`.
+Enum (`ace.domain.entities.economy.FoodType`) with values `Wheat`, `Corn`, `Meat`, `Milk`.
 No other good (tools, machines, houses, clothes, energy, money) exists in v0.1.
 
 ## Need
-`ace.domain.economy.Need` (record): minimum quantity of a food that the agent must consume per
+`ace.domain.entities.economy.Need` (record): minimum quantity of a food that the agent must consume per
 period to survive. It does **not** represent preference, utility, price, intensity, or priority —
 only survival. Invariant: `QuantityPerPeriod > 0`.
 
 ## Production
-`ace.domain.economy.Production` (record): **deterministic** capacity to produce a food per
+`ace.domain.entities.economy.Production` (record): **deterministic** capacity to produce a food per
 period. No labor/land/capital/technology/costs/uncertainty. Invariant: `QuantityPerPeriod > 0`.
 
 ## Inventory
-`ace.domain.economy.Inventory` (class): physical stock of foods per `FoodType`, owned by the
+`ace.domain.entities.economy.Inventory` (class): physical stock of foods per `FoodType`, owned by the
 agent. Query methods (`Get`/`Has`), addition (`Add`), and conditional removal (`Remove`).
 Represents physical property — no monetary value, price, or accounting.
 
@@ -44,11 +44,11 @@ Direct exchange of goods for goods, with no money. The only form of economic tra
 agents in v0.1.
 
 ## Offer
-`ace.domain.exchange.Offer` (record): barter proposal identifying who offers, what they offer,
+`ace.domain.entities.exchange.Offer` (record): barter proposal identifying who offers, what they offer,
 how much, what they want to receive, and how much. No monetary price.
 
 ## Exchange
-`ace.domain.exchange.Exchange` (class): bilateral physical transfer of foods between two agents.
+`ace.domain.entities.exchange.Exchange` (class): bilateral physical transfer of foods between two agents.
 Has `Execute()`, which is **atomic**: a failure does not alter any inventory.
 
 ## Bilateral exchange
@@ -73,7 +73,7 @@ Mandatory sequence per period: Production → Needs → Trades → Consumption �
 period. Executed by the application layer, **not** by `Agent`.
 
 ## Domain
-Central layer (`ace.domain` and sub-namespaces `agents`, `economy`, `exchange`). Represents
+Central layer (`ace.domain` and sub-namespaces under `entities`: `agents`, `economy`, `exchange`). Represents
 rules and economic entities. **It does not know about the simulation.**
 
 ## Application

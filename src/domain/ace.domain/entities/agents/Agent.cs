@@ -1,8 +1,8 @@
 using System.Collections.Immutable;
 
-using ace.domain.economy;
+using ace.domain.entities.economy;
 
-namespace ace.domain.agents;
+namespace ace.domain.entities.agents;
 
 public sealed class Agent
 {

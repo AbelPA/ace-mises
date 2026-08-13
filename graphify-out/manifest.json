@@ -1,12 +1,12 @@
 {
   "/Users/abel/Git/ace-mises/ace-mises.sln": {
-    "mtime": 1786548114.156841,
-    "ast_hash": "3e440ad7f69da223f9195c677c83af41",
+    "mtime": 1786628924.6714556,
+    "ast_hash": "14e46646784309873edb00369b174b1b",
     "semantic_hash": ""
   },
   "/Users/abel/Git/ace-mises/.opencode/opencode.json": {
-    "mtime": 1786550041.5826168,
-    "ast_hash": "abcc8b9dcd80bca5f9dde6d9f0c3ae79",
+    "mtime": 1786551797.5041997,
+    "ast_hash": "2b17261ec84120825ae6566738d8dc84",
     "semantic_hash": ""
   },
   "/Users/abel/Git/ace-mises/.opencode/plugins/graphify.js": {
@@ -35,18 +35,208 @@
     "semantic_hash": ""
   },
   "/Users/abel/Git/ace-mises/.opencode/agent/dev.md": {
-    "mtime": 1786549753.6222017,
-    "ast_hash": "72b448efbee6c56de98cf0c0ac72bc90",
-    "semantic_hash": ""
-  },
-  "/Users/abel/Git/ace-mises/.opencode/agent/techleader.md": {
-    "mtime": 1786549749.77636,
-    "ast_hash": "ee5c710b4042637aa2e5738427910261",
+    "mtime": 1786632701.5428674,
+    "ast_hash": "5a6f25b6c41df9463231c0eb6767b936",
     "semantic_hash": ""
   },
   "/Users/abel/Git/ace-mises/.opencode/skills/graphify/SKILL.md": {
     "mtime": 1786550041.5821104,
     "ast_hash": "3d4dad5e2eeab0b6f73d45dd1e8df0d7",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/.config/dotnet-tools.json": {
+    "mtime": 1786552593.0011258,
+    "ast_hash": "2da9f8318cda11272a16d5e8cac2c3e4",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/.husky/task-runner.json": {
+    "mtime": 1786552593.2483137,
+    "ast_hash": "3ffd278e7a978cc8b899c99950977bb4",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/.husky/pre-commit": {
+    "mtime": 1786552620.8198943,
+    "ast_hash": "abd10e42ec38a3cd212a22d94df70021",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/.husky/_/husky.sh": {
+    "mtime": 1786552593.212605,
+    "ast_hash": "b0fb007b1637af5b9c4e77511ede0b8c",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/.opencode/package.json": {
+    "mtime": 1786550457.5796368,
+    "ast_hash": "5ef81b1ee7ecd39f0dc452223e03c1da",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/tests/ace.tests/AbScenarioTests.cs": {
+    "mtime": 1786629899.9284914,
+    "ast_hash": "25b460f9731f7d9f186a047513fb3340",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/tests/ace.tests/DomainUnitTests.cs": {
+    "mtime": 1786629899.4513714,
+    "ast_hash": "8c9d2c449ef2ec909ba0d49113b2f8b1",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/tests/ace.tests/ace.tests.csproj": {
+    "mtime": 1786566493.9588,
+    "ast_hash": "66c3e7d3a4df27a88cde62ce964275e2",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/application/ace.application/ace.application.csproj": {
+    "mtime": 1786566493.9558666,
+    "ast_hash": "53a529ec0c0417c168e657b01e0f08a4",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/application/ace.application/EconomicCycle.cs": {
+    "mtime": 1786629891.439521,
+    "ast_hash": "b7504d10f8d1a0ea3f72d9836a7110e9",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/application/ace.application/Simulation.cs": {
+    "mtime": 1786629890.9142115,
+    "ast_hash": "c346943bfeea84479287bf0cbe6ca198",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/domain/ace.domain/entities/economy/Production.cs": {
+    "mtime": 1786629896.0631306,
+    "ast_hash": "a9fb644b70ebf0ac0af3c9d1af98b011",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/domain/ace.domain/entities/economy/Inventory.cs": {
+    "mtime": 1786629896.5226717,
+    "ast_hash": "d58312d825904061fb68099303d69f75",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/domain/ace.domain/entities/economy/FoodType.cs": {
+    "mtime": 1786629896.881519,
+    "ast_hash": "1069e7a271213ad370ba06cea9751a8f",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/domain/ace.domain/entities/economy/Need.cs": {
+    "mtime": 1786629897.281929,
+    "ast_hash": "945392d312520e79310e72f68e09417d",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/domain/ace.domain/entities/exchange/Exchange.cs": {
+    "mtime": 1786629897.8293812,
+    "ast_hash": "16083aa8b33a9572e5053c8c13e14688",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/domain/ace.domain/entities/exchange/Offer.cs": {
+    "mtime": 1786629898.3403318,
+    "ast_hash": "8179d6b6494c4ddf0bc10de62bea28c7",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/domain/ace.domain/entities/agents/AgentType.cs": {
+    "mtime": 1786629895.6537724,
+    "ast_hash": "0aa264d36a3d4db6f64a8a2c421d51d7",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/src/domain/ace.domain/entities/agents/Agent.cs": {
+    "mtime": 1786629895.2510493,
+    "ast_hash": "6027925ca22d06098e36189a1ea6c24d",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/README.md": {
+    "mtime": 1786557393.0271964,
+    "ast_hash": "1874c86c20a0faf2c66cc0c43d7dc22b",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/specs/constitution.md": {
+    "mtime": 1786566493.9550307,
+    "ast_hash": "e4b7ffa98e6bae7c2e338dca0f55761e",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/specs/001-minimal-domain/spec.md": {
+    "mtime": 1786629952.2746286,
+    "ast_hash": "d86906c83cdde93679ffdea753e5d145",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/specs/005-limited-information/spec.md": {
+    "mtime": 1786566493.9548297,
+    "ast_hash": "762b244817113a778923b8f2b44b3b9f",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/specs/002-production/spec.md": {
+    "mtime": 1786566493.9540837,
+    "ast_hash": "338adb09ecbed3230f74c5dd4db5a471",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/specs/004-survival/spec.md": {
+    "mtime": 1786566493.9546244,
+    "ast_hash": "66ddb0599d846483af5e0082fe71e686",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/specs/003-barter/spec.md": {
+    "mtime": 1786629952.7641726,
+    "ast_hash": "dd1f8928da5ba7e2f0ef3105e25b8c69",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/.opencode/agent/techlead.md": {
+    "mtime": 1786632815.3957908,
+    "ast_hash": "eb46b094ec90b2118cddcd5e25ee8e6c",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/docs/releases/v0.1.0.md": {
+    "mtime": 1786566493.95339,
+    "ast_hash": "d69729871e0edd27c48d929c08e8f34b",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/docs/releases/README.md": {
+    "mtime": 1786566493.953117,
+    "ast_hash": "4b458b53ba70cee78a7507a987593f49",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/docs/experiments/EXP-002-limited-information.md": {
+    "mtime": 1786566493.9528377,
+    "ast_hash": "d9d47eab3824b76e6c40a2ef106cbc0c",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/docs/experiments/EXP-001-two-agents.md": {
+    "mtime": 1786566493.9525738,
+    "ast_hash": "55d9b6ce9c470ee955c7cafd44ea3f2b",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/docs/architecture/architecture.md": {
+    "mtime": 1786629951.8053524,
+    "ast_hash": "63ff6937a669c7f97e9c99e0b1da3ecf",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/docs/architecture/adr/ADR-001-clean-architecture.md": {
+    "mtime": 1786566493.9506261,
+    "ast_hash": "85acc713706b66ea267ff195010b14fd",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/docs/architecture/adr/ADR-003-deterministic-simulation.md": {
+    "mtime": 1786566493.9511852,
+    "ast_hash": "f049406a86b21632158ff8a8d83bc4f1",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/docs/architecture/adr/ADR-002-domain-boundary.md": {
+    "mtime": 1786566493.9508731,
+    "ast_hash": "babf81c16a54736d26263d3587e7d626",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/docs/domain/model.md": {
+    "mtime": 1786629951.3854902,
+    "ast_hash": "c50f290cddb19c331480317feefab825",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/docs/domain/glossary.md": {
+    "mtime": 1786630012.1925435,
+    "ast_hash": "2ab1d52f14468d59bbb10a789d006d1c",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/.specify/templates/change-template.md": {
+    "mtime": 1786566493.9496026,
+    "ast_hash": "573bbc69a3bef169e6edb7a85863f984",
+    "semantic_hash": ""
+  },
+  "/Users/abel/Git/ace-mises/.specify/templates/spec-template.md": {
+    "mtime": 1786566493.9498663,
+    "ast_hash": "98fc0c75dde09a2667184bb91412a65d",
     "semantic_hash": ""
   }
 }
