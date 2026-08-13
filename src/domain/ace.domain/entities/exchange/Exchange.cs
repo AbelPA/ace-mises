@@ -36,8 +36,8 @@ public sealed class Exchange
         if (!Seller.Inventory.Has(FoodFromSeller, QuantityFromSeller))
             return false;
 
-        Buyer.Inventory.Remove(FoodFromBuyer, QuantityFromBuyer);
-        Seller.Inventory.Remove(FoodFromSeller, QuantityFromSeller);
+        _ = Buyer.Inventory.Remove(FoodFromBuyer, QuantityFromBuyer);
+        _ = Seller.Inventory.Remove(FoodFromSeller, QuantityFromSeller);
 
         Buyer.Inventory.Add(FoodFromSeller, QuantityFromSeller);
         Seller.Inventory.Add(FoodFromBuyer, QuantityFromBuyer);

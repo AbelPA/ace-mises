@@ -9,7 +9,7 @@ namespace ace.tests;
 public class AbScenarioTests
 {
     [Fact]
-    public void AbScenario_BothProducersWithReciprocalNeeds_BothSurvive()
+    public void AbScenarioBothProducersWithReciprocalNeedsBothSurvive()
     {
         // Arrange — A/B scenario from spec 004 / EXP-001
         var agentA = new Agent(
@@ -25,10 +25,10 @@ public class AbScenarioTests
             [new Production(FoodType.Meat, 2)]);
 
         var agents = new List<Agent> { agentA, agentB };
-        var cycle = new EconomicCycle();
+        _ = new EconomicCycle();
 
         // Act — run one period
-        cycle.RunPeriod(agents);
+        EconomicCycle.RunPeriod(agents);
 
         // Assert — final inventories and survival
         // After production + exchange + consumption:

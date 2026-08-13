@@ -43,14 +43,12 @@ public sealed class Agent
         if (!IsAlive)
             return;
 
-        foreach (var production in Productions)
+        foreach (Production production in Productions)
             Inventory.Add(production.Food, production.QuantityPerPeriod);
     }
 
     public IReadOnlyList<Need> UnfulfilledNeeds()
-        => Needs
-            .Where(n => !Inventory.Has(n.Food, n.QuantityPerPeriod))
-            .ToList();
+        => [.. Needs.Where(n => !Inventory.Has(n.Food, n.QuantityPerPeriod))];
 
     public bool NeedsFood()
         => UnfulfilledNeeds().Count > 0;
@@ -60,7 +58,7 @@ public sealed class Agent
         if (!IsAlive)
             return;
 
-        foreach (var need in Needs)
+        foreach (Need need in Needs)
         {
             if (!Inventory.Has(need.Food, need.QuantityPerPeriod))
             {
@@ -69,7 +67,7 @@ public sealed class Agent
             }
         }
 
-        foreach (var need in Needs)
-            Inventory.Remove(need.Food, need.QuantityPerPeriod);
+        foreach (Need need in Needs)
+            _ = Inventory.Remove(need.Food, need.QuantityPerPeriod);
     }
 }

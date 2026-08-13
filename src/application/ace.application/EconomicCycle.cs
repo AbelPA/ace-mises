@@ -1,19 +1,19 @@
 using ace.domain.entities.agents;
-using ace.domain.entities.economy;
 using ace.domain.entities.exchange;
+using ace.domain.interfaces.application;
 
 namespace ace.application;
 
-public sealed class EconomicCycle
+public sealed class EconomicCycle : IEconomicCycle
 {
     /// <summary>
     /// Runs one period of the economic cycle for the given agents.
     /// Mandatory order: Production → Needs → Trades → Consumption → Survival.
     /// </summary>
-    public void RunPeriod(IReadOnlyList<Agent> agents)
+    public static void RunPeriod(IReadOnlyList<Agent> agents)
     {
         // Phase 1: Production
-        foreach (var agent in agents)
+        foreach (Agent agent in agents)
             agent.Produce();
 
         // Phase 2: Needs (query — no action needed; unfulfilled needs are
@@ -23,7 +23,7 @@ public sealed class EconomicCycle
         DiscoverAndExecuteTrades(agents);
 
         // Phase 4: Consumption
-        foreach (var agent in agents)
+        foreach (Agent agent in agents)
             agent.Consume();
 
         // Phase 5: Survival — observe IsAlive (no action; Consume already
@@ -42,26 +42,26 @@ public sealed class EconomicCycle
             {
                 if (i == j) continue;
 
-                var a = agents[i];
-                var b = agents[j];
+                Agent a = agents[i];
+                Agent b = agents[j];
 
                 if (!a.IsAlive || !b.IsAlive) continue;
 
                 // Re-check unfulfilled needs each time (inventories change during trading)
-                var unfulfilledA = a.UnfulfilledNeeds();
-                var unfulfilledB = b.UnfulfilledNeeds();
+                IReadOnlyList<domain.entities.economy.Need> unfulfilledA = a.UnfulfilledNeeds();
+                IReadOnlyList<domain.entities.economy.Need> unfulfilledB = b.UnfulfilledNeeds();
 
                 if (unfulfilledA.Count == 0 || unfulfilledB.Count == 0) continue;
 
                 // Find a reciprocal opportunity:
                 // A needs X (B has X) + B needs Y (A has Y)
-                foreach (var needA in unfulfilledA)
+                foreach (domain.entities.economy.Need needA in unfulfilledA)
                 {
                     if (!b.Inventory.Has(needA.Food, 1)) continue;
 
                     bool exchanged = false;
 
-                    foreach (var needB in unfulfilledB)
+                    foreach (domain.entities.economy.Need needB in unfulfilledB)
                     {
                         if (!a.Inventory.Has(needB.Food, 1)) continue;
 
@@ -80,7 +80,7 @@ public sealed class EconomicCycle
                             foodFromSeller: needA.Food,
                             quantityFromSeller: qtyFromB);
 
-                        exchange.Execute();
+                        _ = exchange.Execute();
                         exchanged = true;
                         break;
                     }

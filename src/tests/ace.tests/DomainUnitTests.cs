@@ -13,7 +13,7 @@ public class DomainUnitTests
     // ─────────────────────────────────────────────────────────────────────
 
     [Fact]
-    public void Inventory_Add_IncrementsQuantity()
+    public void InventoryAddIncrementsQuantity()
     {
         var inventory = new Inventory();
 
@@ -27,15 +27,15 @@ public class DomainUnitTests
     [InlineData(0)]
     [InlineData(-1)]
     [InlineData(-5)]
-    public void Inventory_Add_InvalidQuantity_Throws(int quantity)
+    public void InventoryAddInvalidQuantityThrows(int quantity)
     {
         var inventory = new Inventory();
 
-        Assert.Throws<ArgumentOutOfRangeException>(() => inventory.Add(FoodType.Wheat, quantity));
+        _ = Assert.Throws<ArgumentOutOfRangeException>(() => inventory.Add(FoodType.Wheat, quantity));
     }
 
     [Fact]
-    public void Inventory_HasAndGet_QueryInventory()
+    public void InventoryHasAndGetQueryInventory()
     {
         var inventory = new Inventory();
         inventory.Add(FoodType.Wheat, 3);
@@ -47,7 +47,7 @@ public class DomainUnitTests
     }
 
     [Fact]
-    public void Inventory_Remove_Available_ReturnsTrue()
+    public void InventoryRemoveAvailableReturnsTrue()
     {
         var inventory = new Inventory();
         inventory.Add(FoodType.Wheat, 4);
@@ -59,7 +59,7 @@ public class DomainUnitTests
     }
 
     [Fact]
-    public void Inventory_Remove_Insufficient_ReturnsFalse()
+    public void InventoryRemoveInsufficientReturnsFalse()
     {
         var inventory = new Inventory();
         inventory.Add(FoodType.Wheat, 2);
@@ -75,7 +75,7 @@ public class DomainUnitTests
     // ─────────────────────────────────────────────────────────────────────
 
     [Fact]
-    public void Produce_LiveProducer_InventoryIncreases()
+    public void ProduceLiveProducerInventoryIncreases()
     {
         var agent = new Agent(
             "P",
@@ -89,7 +89,7 @@ public class DomainUnitTests
     }
 
     [Fact]
-    public void Produce_MultipleProductions_Accumulate()
+    public void ProduceMultipleProductionsAccumulate()
     {
         var agent = new Agent(
             "P",
@@ -104,7 +104,7 @@ public class DomainUnitTests
     }
 
     [Fact]
-    public void Produce_RepeatedProduction_AccumulatesAcrossPeriods()
+    public void ProduceRepeatedProductionAccumulatesAcrossPeriods()
     {
         var agent = new Agent(
             "P",
@@ -119,7 +119,7 @@ public class DomainUnitTests
     }
 
     [Fact]
-    public void Produce_DeadAgent_DoesNotProduce()
+    public void ProduceDeadAgentDoesNotProduce()
     {
         var agent = new Agent(
             "X",
@@ -140,7 +140,7 @@ public class DomainUnitTests
     // ─────────────────────────────────────────────────────────────────────
 
     [Fact]
-    public void Execute_ValidExchange_TransfersBilaterally()
+    public void ExecuteValidExchangeTransfersBilaterally()
     {
         var a = new Agent(
             "A",
@@ -174,7 +174,7 @@ public class DomainUnitTests
     }
 
     [Fact]
-    public void Execute_BuyerLacksGood_ReturnsFalse_NoAlteration()
+    public void ExecuteBuyerLacksGoodReturnsFalseNoAlteration()
     {
         var a = new Agent(
             "A",
@@ -207,7 +207,7 @@ public class DomainUnitTests
     }
 
     [Fact]
-    public void Execute_SellerLacksGood_ReturnsFalse_NoAlteration()
+    public void ExecuteSellerLacksGoodReturnsFalseNoAlteration()
     {
         var a = new Agent(
             "A",
@@ -244,7 +244,7 @@ public class DomainUnitTests
     // ─────────────────────────────────────────────────────────────────────
 
     [Fact]
-    public void UnfulfilledNeeds_FulfilledNeed_NotReturned()
+    public void UnfulfilledNeedsFulfilledNeedNotReturned()
     {
         var agent = new Agent(
             "P",
@@ -254,14 +254,14 @@ public class DomainUnitTests
 
         agent.Inventory.Add(FoodType.Meat, 1);
 
-        var unfulfilled = agent.UnfulfilledNeeds();
+        IReadOnlyList<Need> unfulfilled = agent.UnfulfilledNeeds();
 
         Assert.Empty(unfulfilled);
         Assert.False(agent.NeedsFood());
     }
 
     [Fact]
-    public void UnfulfilledNeeds_UnfulfilledNeed_Returned()
+    public void UnfulfilledNeedsUnfulfilledNeedReturned()
     {
         var agent = new Agent(
             "P",
@@ -269,14 +269,14 @@ public class DomainUnitTests
             [new Need(FoodType.Meat, 1)],
             [new Production(FoodType.Wheat, 1)]);
 
-        var unfulfilled = agent.UnfulfilledNeeds();
+        IReadOnlyList<Need> unfulfilled = agent.UnfulfilledNeeds();
 
         Assert.Contains(unfulfilled, n => n.Food == FoodType.Meat);
         Assert.True(agent.NeedsFood());
     }
 
     [Fact]
-    public void Consume_AllNeedsFulfilled_StaysAlive()
+    public void ConsumeAllNeedsFulfilledStaysAlive()
     {
         var agent = new Agent(
             "P",
@@ -293,7 +293,7 @@ public class DomainUnitTests
     }
 
     [Fact]
-    public void Consume_UnfulfilledNeed_AgentDies()
+    public void ConsumeUnfulfilledNeedAgentDies()
     {
         var agent = new Agent(
             "P",
@@ -307,7 +307,7 @@ public class DomainUnitTests
     }
 
     [Fact]
-    public void Consume_DeadAgent_NoChange()
+    public void ConsumeDeadAgentNoChange()
     {
         var agent = new Agent(
             "X",

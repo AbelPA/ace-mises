@@ -2,7 +2,7 @@ namespace ace.domain.entities.economy;
 
 public sealed class Inventory
 {
-    private readonly Dictionary<FoodType, int> _items = new();
+    private readonly Dictionary<FoodType, int> _items = [];
 
     public int Get(FoodType food)
         => _items.GetValueOrDefault(food);
@@ -12,8 +12,7 @@ public sealed class Inventory
 
     public void Add(FoodType food, int quantity)
     {
-        if (quantity <= 0)
-            throw new ArgumentOutOfRangeException(nameof(quantity));
+        ArgumentOutOfRangeException.ThrowIfNegativeOrZero(quantity);
 
         _items[food] = Get(food) + quantity;
     }
@@ -32,5 +31,7 @@ public sealed class Inventory
     }
 
     public IReadOnlyDictionary<FoodType, int> Items
-        => _items;
+    {
+        get => _items;
+    }
 }
