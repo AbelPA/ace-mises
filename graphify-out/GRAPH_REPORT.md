@@ -1,16 +1,16 @@
 # Graph Report - ace-mises  (2026-08-13)
 
 ## Corpus Check
-- 46 files · ~21,336 words
+- 46 files · ~21,578 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 404 nodes · 393 edges · 44 communities (36 shown, 8 thin omitted)
+- 419 nodes · 408 edges · 44 communities (37 shown, 7 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `182d1c1c`
+- Built from commit: `92660c64`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -69,7 +69,7 @@
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (44 total, 8 thin omitted)
+## Communities (44 total, 7 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.11
@@ -104,8 +104,8 @@ Cohesion: 0.10
 Nodes (20): About, ADDENDA, ADVICE, Canonical code, Exchange, Execution rule (atomic), Minimal exchange-opportunity criterion, Offer (+12 more)
 
 ### Community 9 - "Community 9"
-Cohesion: 0.40
-Nodes (4): Regras, Responsabilidades, Responsibilities, Rules
+Cohesion: 0.18
+Nodes (10): Goal, Implementation Rules, Language, .NET, Output Protocol, Regras, Responsabilidades, Responsibilities (+2 more)
 
 ### Community 10 - "Community 10"
 Cohesion: 0.12
@@ -191,20 +191,24 @@ Nodes (3): EconomicCycle, Agent, IReadOnlyList
 Cohesion: 0.40
 Nodes (4): ACE — Constitution, Formal prohibitions, Principles, Specs structure
 
+### Community 34 - "Community 34"
+Cohesion: 0.17
+Nodes (11): Context Efficiency, Delegation, Git, Goal, Language, Response Protocol, Responsibilities, Rules (+3 more)
+
 ## Knowledge Gaps
-- **260 isolated node(s):** `version`, `isRoot`, `version`, `commands`, `rollForward` (+255 more)
+- **275 isolated node(s):** `version`, `isRoot`, `version`, `commands`, `rollForward` (+270 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `What You Must Do When Invoked` connect `Community 0` to `Community 3`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **Why does `/graphify` connect `Community 3` to `Community 0`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **What connects `version`, `isRoot`, `version` to the rest of the system?**
-  _260 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _275 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
